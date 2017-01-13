@@ -1,0 +1,123 @@
+HTML {
+    font-family: helvetica Neue, sans-serif;
+    -ms-text=size-adjust: 100% -webkit-text-size-adjust: 100%
+}
+
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+    /*
+  Use this code if you'd like to set a background image:
+  background-image: url('image-name.jpg');
+  */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: helvetica Neue, sans-serif;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-body {
+    margin: 0 auto;
+    /*
+  If you'd like a maximum width, please uncomment the following line:
+  max-width: 480px;
+  */
+    padding: 0 25px;
+}
+
+.module-container {
+    text-align: center;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    height: auto;
+    text-indent: -999px;
+    background-size: 300px 90px;
+    height: 100px;
+    width: 100px
+}
+
+.headline {
+    color: #ffffff;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin: 30px auto;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.headline h1 {
+    font-size: 1.5em;
+}
+
+.headline h2 {
+    font-size: 0.75em;
+    font-weight: 300;
+    line-height: 1.35em;
+    margin-top: 15px;
+}
+
+.main-copy {
+    color: #ffffff;
+    font-size: .85em;
+    line-height: 1.5em;
+    width: 90%;
+    margin: 0 auto 30px auto;
+}
+
+.button-link {
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.button-link:nth-of-type(2), .button-link:nth-of-type(3) {
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+
+button:hover {
+    background-color: #08C;
+}
